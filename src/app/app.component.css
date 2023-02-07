@@ -60,6 +60,7 @@ details {
   font-weight: bold;
   box-shaddow: 10px 5px 5px #ccc;
   text-decoration: none;
+  font-family: Papyrus;
 }
 
 .changecolor {
@@ -87,6 +88,17 @@ details {
 }
 
 .delete {
+  background-color: white;
+  display: inline-block;
+  padding: 8px 8px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 80px;
+  font-weight: bold;
+  box-shaddow: 10px 5px 5px #ccc;
+  text-decoration: none;
+}
+.data-toggle-btn {
   background-color: white;
   display: inline-block;
   padding: 8px 8px;
@@ -130,6 +142,6 @@ details {
 }
 @media only screen and (max-width: 600px) {
   .wrapper {
-    background-color: purple;
+    background-color: blue;
   }
 }
